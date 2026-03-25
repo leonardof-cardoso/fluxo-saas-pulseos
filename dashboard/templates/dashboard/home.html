@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}PulseOS | Operacao inteligente{% endblock %}
+
+{% block content %}
+  <section class="hero">
+    <div class="panel hero-copy">
+      <span class="eyebrow">SaaS operacional para servicos locais</span>
+      <h1>Gestao clara para negocios que precisam crescer com ritmo.</h1>
+      <p>
+        Uma base moderna para clientes, agendamentos, pagamentos e operacao diaria,
+        com visual limpo e estrutura pronta para escalar em produto real.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="/admin/">Acessar admin</a>
+        <a class="button button-secondary" href="#visao-geral">Ver visao geral</a>
+      </div>
+    </div>
+    <aside class="panel hero-side" id="visao-geral">
+      <div class="metrics">
+        <article class="metric-card">
+          <div class="metric-label">Clientes ativos</div>
+          <div class="metric-value">1.284</div>
+          <div class="metric-trend">+12% neste mes</div>
+        </article>
+        <article class="metric-card">
+          <div class="metric-label">Agendamentos hoje</div>
+          <div class="metric-value">48</div>
+          <div class="metric-trend">Fluxo estavel</div>
+        </article>
+        <article class="metric-card">
+          <div class="metric-label">Receita consolidada</div>
+          <div class="metric-value">R$ 18,4k</div>
+          <div class="metric-trend">Base para dashboard real</div>
+        </article>
+      </div>
+    </aside>
+  </section>
+{% endblock %}
