@@ -35,7 +35,7 @@ Tudo isso com uma interface limpa, moderna e sem cara de template generico.
 - CSS custom moderno
 
 ## Estrutura das apps
-
+ 
 - `accounts`
 - `clients`
 - `appointments`
